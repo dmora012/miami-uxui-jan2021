@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,24 @@
     <meta name="description" content="Delio Ux UI Designer Ironhack">
     <meta name="keywords" content="UXUI,Ironhack, Design Principles">
     <meta name="author" content="Delio">
-
     <title>Delio's Page</title>
-
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        /* div {
+            border: 1px red solid;
+        } */
+    </style>
 </head>
+
 <body>
     <!-- Header - start -->
     <header>
-        <img  src="" alt="Delio's Logo"> logo
-        search
+        <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Delio's Logo">
+        <form action="#">
+            <input type="search">
+            <input type="submit" value="Find">
+        </form>
+
         <nav>
             about
             products
@@ -23,123 +33,138 @@
             Contacts
         </nav>
     </header>
-<!-- Header - Emd --> 
+    <!-- Header - Emd -->
 
-<!-- Hero - start -->
-    <section>
+    <!-- Hero - start -->
+    <section id="hero">
         <h1>Heading 1</h1>
         <h3>Heading 3</h3>
-    Call to Action
-</section>
-<!-- Hero - end -->
+        Call to Action
+    </section>
+    <!-- Hero - end -->
 
-<!-- Articles Cards - start -->
-<section>
-    <!-- Card 1 - Start -->
-    <div>
-        <img src="" alt="">
-        <h3\>heading 3</h3>
-        <p>paragragh</p>
-        <img src="" alt="avatar">
-        <p>author name</p>
-    </div>
-    <!-- Card 1 - end-->
+    <!-- Articles Cards - start -->
+    <section id="card">
+        <!-- Card 1 - Start -->
+        <div class="card">
+            <img src="img/austin-wilcox-v2hlpQjtkcI-unsplash.jpg" alt="" class="img-card">
+            <h3>heading 3</h3>
+            <p>paragragh</p>
+            <img src="img/avatar_02.png" alt="avatar">
+            <p>author name</p>
+        </div>
+        <!-- Card 1 - end-->
 
-    <!-- Card 2 - Start -->
-    <div>
-        <img src="" alt="">
-        <h3\>heading 3</h3>
-        <p>paragragh</p>
-        <img src="" alt="avatar">
-        <p>author name</p>
-    </div>
-    <!-- Card 2 - end-->
+        <!-- Card 2 - Start -->
+        <div class="card">
+            <img src="img/hans-isaacson-BXPLwrnJDl0-unsplash.jpg" alt="" class="img-card">
+            <h3>heading 3</h3>
+            <p>paragragh</p>
+            <img src="img/avatar_04.png" alt="avatar">
+            <p>author name</p>
+        </div>
+        <!-- Card 2 - end-->
 
-    <!-- Card 3 - Start -->
-    <div>
-        <img src="" alt="">
-        <h3\>heading 3</h3>
-        <p>paragragh</p>
-        <img src="" alt="avatar">
-        <p>author name</p>
-    </div>
-    <!-- Card 3 - end-->
-</section>
-<!-- Articles Cards - send -->
+        <!-- Card 3 - Start -->
+        <div class="card">
+            <img src="img/matteus-silva-ESuXk-ssELk-unsplash.jpg" alt="" class="img-card">
+            <h3>heading 3</h3>
+            <p>paragragh</p>
+            <img src="img/avatar_01.png" alt="avatar">
+            <p>author name</p>
+        </div>
+        <!-- Card 3 - end-->
+    </section>
+    <!-- Articles Cards - send -->
 
-<!-- Video - start -->
-<section>
-    <video>
-        <source src="" type="video/mp4">
-    </video>
-</section>
-<!-- Video - end -->
+    <!-- Video - start -->
+    <section>
+        <video>
+            <source src="" type="video/mp4">
+        </video>
+    </section>
+    <!-- Video - end -->
 
-<!--Features - stat   -->
-<section>
-    <!-- Feature 1  - start -->
-    <div>
-            <img src="" alt="">
+    <!--Features - stat   -->
+    <section>
+        <!-- Feature 1  - start -->
+        <div>
+            <img src="img/dan-asaki-aXGGOSo5KyU-unsplash.jpg" alt="" class="img-feat">
             <h2>title</h2>
             <p>description</p>
-    </div>
-    <!-- Feature 1 - end-->
+        </div>
+        <!-- Feature 1 - end-->
 
-    <!-- Feature 2  - start -->
-    <div>
-        <img src="" alt="">
-        <h2>title</h2>
-        <p>description</p>
-    </div>
-    <!-- Feature 2 - end-->
+        <!-- Feature 2  - start -->
+        <div>
+            <img src="img/hans-isaacson-BXPLwrnJDl0-unsplash.jpg" alt="" class="img-feat">
+            <h2>title</h2>
+            <p>description</p>
+        </div>
+        <!-- Feature 2 - end-->
 
-    <!-- Feature 3  - start -->
-    <div>
-        <img src="" alt="">
-        <h2>title</h2>
-        <p>description</p>
-    </div>
-    <!-- Feature 3 - end-->
-</section>
-<!--Features - end  -->
+        <!-- Feature 3  - start -->
+        <div>
+            <img src="img/matteus-silva-ESuXk-ssELk-unsplash.jpg" alt="" class="img-feat">
+            <h2>title</h2>
+            <p>description</p>
+        </div>
+        <!-- Feature 3 - end-->
+    </section>
+    <!--Features - end  -->
 
-<!-- Contact - start -->
-<section>
-    <div>
-        <h3>Contact Use</h3>
-        <p>Address</p>
-    </div>
-    <div>
-        name
-        email
-        message
-        button
-    </div>
-</section>
-<!-- Contact - end -->
+    <!-- Contact - start -->
+    <section>
+        <div>
+            <h3>Contact Us</h3>
+            <p>Address</p>
+        </div>
+        <div>
+            <form>
+                <label for="name">Name</label><br>
+                <input id="name" type="text" placeholder="Type your Name">
 
-<!-- Footer -start -->
-<footer>
-     <!-- menu -start -->
-   <div>
-        about us
-        products
-        testimonials
-    </div>
-    <!-- menu - end -->
-<!-- Social Media - start -->
-    <div>
-       <h4> Social Media</h4>
+                <br><br>
+
+                <label for="email">Email</label><br>
+                <input id="email" type="email" placeholder="type email address">
+
+                <br><br>
+
+                <label for="Message">Message</label><br>
+                <textarea id="Message" rows="6" cols="50" placeholder="write a messgae"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
+    <!-- Contact - end -->
+
+    <!-- Footer -start -->
+    <footer>
+        <!-- menu -start -->
+        <div>
+            about us
+            products
+            testimonials
+        </div>
+        <!-- menu - end -->
+        <!-- Social Media - start -->
+        <div>
+            <h4> Social Media</h4>
             Facebook
             Instagram
             Twitter
-    </div>
-<!-- Social Media - end -->
-</footer>
+        </div>
+        <!-- Social Media - end -->
+    </footer>
 
-<!-- Footer - end -->
+    <!-- Footer - end -->
 
 
 
 </body>
+
 </html>
