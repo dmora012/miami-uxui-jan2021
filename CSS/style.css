@@ -120,8 +120,7 @@ a.cv-button:active {
 } */
 
 #hero {
-    /* Need to fix image*/
-    background-image: url('.img');
+    background-image: url('../img/matteus-silva-ESuXk-ssELk-unsplash.jpg');
     background-size: cover;
     height: 30vh;
     text-align: center;
