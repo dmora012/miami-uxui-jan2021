@@ -2,8 +2,13 @@
 * {
     font-family: ‘Exo 2’, sans-serif;
 }
+
+body {
+    margin: 0;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: ‘Krona One’, sans-serif;
+    margin: 10px 0;
 }
 h1 {
     font-size: 4.209rem;
@@ -37,6 +42,11 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 36px;
+}
+
+footer {
+    justify-content: space-evenly;
+    padding: 2em;
 }
 img {
     /* width: 100%; */
@@ -104,9 +114,28 @@ a.cv-button:active {
     height: 40px;
     margin-right: 8px;
 }
+
+.feat-card {
+
+}
+
 #hero {
-    background-image: url(‘../img/fahmi-fakhrudin-nzyzAUsbV0M-unsplash.jpg’);
+    /* Need to fix image*/
+    background-image: url('.img');
     background-size: cover;
     height: 30vh;
     text-align: center;
+}
+
+#hero div {
+    padding: 20px;
+}
+
+#articles {
+    justify-content: space-between;
+}
+
+#contact {
+    justify-content: space-around;
+    background-color: whitesmoke;
 }
