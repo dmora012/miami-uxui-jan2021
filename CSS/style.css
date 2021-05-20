@@ -51,6 +51,11 @@ footer {
 img {
     /* width: 100%; */
 }
+
+video { 
+    width:100%;
+}
+
 /* LINKS */
 a:link, a:visited {
     text-decoration: none;
@@ -92,7 +97,18 @@ a.cv-button:active {
 .card {
     width: 250px;
 }
+
+.img-holder {
+position: relative;
+height:250px;
+width:100%;
+overflow:hidden; /* this crops image */
+}
+
 .img-card {
+   position:absolute;
+   right: 0;
+   bottom: 0;
     width: 100%;
 }
 .img-feat {
@@ -115,9 +131,19 @@ a.cv-button:active {
     margin-right: 8px;
 }
 
-/* .feat-card {
+.feat-item {
+    flex-grow: 1;
+}
 
-} */
+a.btn-rocio {
+    font-family: 'Poppins', sans-serif;
+    color: #131045;
+    background-color: white;
+    border: 3px solid #131045;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 0 #131045;
+    border-radius: 100px;
+}
 
 #hero {
     background-image: url('../img/dan-asaki-aXGGOSo5KyU-unsplash.jpg');
@@ -137,4 +163,7 @@ a.cv-button:active {
 #contact {
     justify-content: space-around;
     background-color: whitesmoke;
+}
+#video {
+    padding:0;
 }
