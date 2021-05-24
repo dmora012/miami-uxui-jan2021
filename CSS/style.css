@@ -66,34 +66,45 @@ input {
 }
 
 input:focus{
-    background-color: yellowgreen;
-    border: none;
+    background-color:mintcream;
+    outline:0;
 }
 
 input[type=text]{
+    box-sizing: border-box;
+    width:80%;
     background-image: url('../icons/file-user-line.png');
     background-repeat: no-repeat;
     background-position: 8px;
     padding-left: 40px;
-    width:80%;
+   
 }
 
 input[type=email]{
+    box-sizing: border-box;
+    width: 80%;
     background-image: url('../icons/mail-line.png');
     background-repeat: no-repeat;
     background-position: 8px;
     padding-left: 40px;
-    width: 80%;
+   
 }
 
 textarea {
-    width: 82%;
+    box-sizing: border-box;
+    width: 80%;
     height: 150px;
     padding: 16px 24px;
     margin: 8px 0;
     border-radius: 5px;
     border: 1px solid gray;
     resize:none;
+}
+
+textarea:focus {
+    outline: 0;
+    background-color: mintcream;
+
 }
 
 input[type=submit] {
@@ -105,7 +116,7 @@ input[type=submit] {
 }
 
 #btn-form{
-    width: 90%;
+    width: 80%;
 }
 
 /* LINKS */
@@ -204,6 +215,7 @@ a.btn-rocio {
 }
 
 #hero {
+    /* background-image: linear-gradient(red, yellow); */
     background-image: url('../img/dan-asaki-aXGGOSo5KyU-unsplash.jpg');
     background-size: cover;
     height: 30vh;
