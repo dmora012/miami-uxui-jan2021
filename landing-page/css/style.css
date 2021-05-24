@@ -67,7 +67,7 @@ footer {
     
 }
 .img-holderdriver{
-    /* position: relative; */
+    position: relative;
     height:60px;
     width:60px;
     object-fit: contain;
