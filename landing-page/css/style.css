@@ -35,7 +35,7 @@ div {
     border: 1px red solid;
 }
 section {
-    background-color: gray;
+    background-color: white;
 }
 header {
     justify-content: space-between;
@@ -113,7 +113,9 @@ a.join-button:link, a.join-button:visited {
     overflow: hidden; */
 }
 
-.box-imga{
+.box-logo{
+    width:60px;
+    height:100%;
     object-fit:cover;
 }
 .box-imgb{
